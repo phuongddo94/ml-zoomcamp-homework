@@ -86,7 +86,7 @@ y_test = df_test.churn.values
 auc = roc_auc_score(y_test, y_pred)
 print(f'Test AUC: {auc:.3f}')
 
-output_file = f'model_C={C}.bin'
+output_file = f'/05-deployment/model_C={C}.bin'
 
 with open(output_file, 'wb') as f_out:
     pickle.dump((dv, model), f_out)
