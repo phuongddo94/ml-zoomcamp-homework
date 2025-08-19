@@ -31,7 +31,7 @@ categorical = [
 ]
 
 # Data Preparation
-df = pd.read_csv('Telco-Customer-Churn.csv')
+df = pd.read_csv('https://raw.githubusercontent.com/alexeygrigorev/mlbookcamp-code/master/chapter-03-churn-prediction/WA_Fn-UseC_-Telco-Customer-Churn.csv')
 df.columns = df.columns.str.lower().str.replace(' ', '_')
 categorical_columns = list(df.dtypes[df.dtypes == 'object'].index)
 for c in categorical_columns:
