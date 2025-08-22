@@ -4,3 +4,4 @@ Step 2: Use Git Bash Command Line to run: docker run -it --rm python:3.8.12-slim
 Step 3: Build an image using Docker file: docker build -t zoomcamp-test . 
         Replace zoomcamp-test with the image name
         To access the image, now run: docker run -it --rm zoomcamp-test:latest
+Step 4: Expose the port from the VM to the currnt machine and map the port from docker img to the host machine
