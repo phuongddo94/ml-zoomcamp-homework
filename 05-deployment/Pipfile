@@ -5,9 +5,9 @@ name = "pypi"
 
 [packages]
 numpy = "*"
-scikit-learn = "*"
 flask = "*"
 waitress = "*"
+scikit-learn = "==1.5.2"
 
 [dev-packages]
 
